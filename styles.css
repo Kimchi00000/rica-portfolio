@@ -1,0 +1,116 @@
+.gradient-background {
+    background: linear-gradient(300deg, #D9A9AD, #BF8E97, #F2E9E9);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.project-title {
+    font-family: "Bodoni Moda", serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #F2E9E9;
+}
+
+.project-title1 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #403333;
+}
+
+.project-desc {
+    font-family: "Outfit", serif;
+    color: #F2E9E9;
+}
+
+.project-desc1 {
+    font-family: "Outfit", serif;
+    color: #403333;
+}
+
+.hello{
+    font-family: "Outfit", serif;
+    color: #403333;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.about {
+    color: #F2E9E9
+}
+
+.profile_pic {
+    border-radius: 50%;
+    height: 300px;
+    border: solid #403333 1px;
+}
+
+
+span{
+    font-family: "Outfit", serif;
+    color:#403333;
+}
+
+.skills_container {
+    background-color: #F2E9E9;
+}
+
+.skill_title {
+    font-family: "Bodoni Moda", serif;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    color:#403333;
+}
+
+.skill_img{
+    border-radius: 15px;
+    height: 200px;
+    width: 300px;
+}
+
+.skill-type {
+    font-family: "Bodoni Moda", serif;
+    font-weight: bold;
+    color:#403333;
+}
+
+.skill-desc {
+    font-family: "Outfit", serif;
+    color: #BF8E97
+}
+
+.subscribe {
+    font-family: "Outfit", serif;
+    color: #403333;
+}
+
+.sub-desc {
+    font-family: "Outfit", serif;
+    color: #F2E9E9;
+}
+
+.copyright {
+    font-family: "Outfit", serif;
+    color: #403333;
+}
+
+.bi-instagram {
+   color: #F2E9E9;
+}
+
+.bi-linkedin {
+    color: #F2E9E9;
+}
